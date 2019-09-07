@@ -86,13 +86,17 @@ body{
 .news-list li > a{
     text-align: start;
     text-decoration: none;
-    color:#961a8b;
+    color:#a84da1;
     font-weight: 550;
     font-size:1.1em;
 }
 
+.news-list ul>li{
+    color:#a84da1;
+}
 .news-list li > a:hover{
-    color:rgb(255, 255, 255);
+    color:#542f72;
+    font-size:1.2em;
 }
 
 @media screen and (max-width: 940px) {
