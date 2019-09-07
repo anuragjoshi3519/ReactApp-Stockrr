@@ -9,7 +9,7 @@
 } 
 body{
     height:100%;
-    background-color:#eaddf0;
+    background-color:#ffffff;
 }
 
 .menu-section{
@@ -52,7 +52,7 @@ body{
 
 .article-heading h1{
     font-size:3.2em;
-    color:#ffffff;
+    color:#4b0658;
     font-weight:300;
 }
 
@@ -75,6 +75,7 @@ body{
 }
 
 .news-heading >h2{
+    color:#4b0658;
     font-weight:350;
     font-size:2.7em;
 }
