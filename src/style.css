@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-rendering:optimizeLegibility;
+    color:white;
+    font-weight:400px;
+    text-align:center;
+    line-height: 130%;
+} 
+body{
+    height:100%;
+    background-color:#eaddf0;
+}
+
+.menu-section{
+    background-color:#d6b9e4;
+    padding:1em;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+}
+
+.menu-section .logo img{
+    height: 5em;
+    width: 5em;
+}
+.menu-section .menu-links{
+    margin:1em;
+    text-decoration: none;
+    color:white;
+}
+.menu-links a{
+    font-size:1.5em;
+    margin:0.6em;
+    color:white;
+    font-weight: 450;
+}
+
+.menu-links a:hover{
+    color:#9137c2;
+}
+
+.main-section{
+    margin-top:3em;
+    display:flex;
+    flex-direction: row;
+}
+
+.article-section{
+    width:70%
+}
+
+.article-heading h1{
+    font-size:3.2em;
+    color:#ffffff;
+    font-weight:300;
+}
+
+.article-menu{
+    padding:0.2em;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.article-menu .article-card{
+    margin:2em 0 0 1em;
+}
+
+.news-section{
+    margin-right:2em;
+    width:30%;
+    border-left:2px solid whitesmoke;
+}
+
+.news-heading >h2{
+    font-weight:350;
+    font-size:2.7em;
+}
+
+.news-list li{
+    margin:2em 0 0 0;
+}
+.news-list li > a{
+    text-align: start;
+    text-decoration: none;
+    color:#961a8b;
+    font-weight: 550;
+    font-size:1.1em;
+}
+
+.news-list li > a:hover{
+    color:rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 940px) {
+.menu-section{
+    flex-direction: column;
+}
+.menu-section .menu-links{
+    font-size:1em;
+}
+
+.article-menu{
+    margin-right:1em;
+}
+
+.news-section{
+    margin:1em;
+    width:40%;
+}
+.article-section{
+    margin:1em;
+    width:60%
+}
+
+}
+
+@media screen and (max-width: 520px){
+    .main-section{
+        flex-direction: column;
+    }
+    .article-section{
+        width:100%
+    }
+    .news-section{
+        width:100%;
+        border-left:none;
+        border-top: 2px solid #ffffff;
+        margin-top:2em;
+        padding:2em;
+    }
+    
+}
