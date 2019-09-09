@@ -13,7 +13,7 @@ body{
 }
 
 .menu-section{
-    background-color:#d6b9e4;
+    background-color:#7c2996;
     padding:1em;
     display:flex;
     flex-wrap:nowrap;
@@ -37,7 +37,8 @@ body{
 }
 
 .menu-links a:hover{
-    color:#9137c2;
+    color:#ffffff;
+    font-weight: 600;
 }
 
 .main-section{
@@ -96,7 +97,7 @@ body{
 }
 .news-list li > a:hover{
     color:#542f72;
-    font-size:1.2em;
+    font-size:1.15em;
 }
 
 @media screen and (max-width: 940px) {
